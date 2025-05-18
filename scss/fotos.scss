@@ -1,0 +1,75 @@
+$color-primario: rgb(211, 241, 223);
+$color-secundario: rgb(0, 129, 112);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-primario;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  header {
+    h1 {
+      color: $color-secundario;
+      display: flex;
+      justify-content: center;
+      padding-top: 5px;
+      text-decoration-line: underline;
+    }
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 20%;
+    }
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
+  a {
+    color: $color-secundario !important;
+    padding: 5px;
+  }
+  img {
+    height: auto;
+    width: 100%;
+    border: 5px solid $color-secundario;
+    margin: 5px 0 5px 0px;
+  }
+
+  img {
+    view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: both;
+
+    animation-timeline: --reveal;
+    animation-range: entry 30% cover 50%;
+  }
+  @media (min-width: 800px) {
+    .btn-nav {
+      display: flex;
+      justify-content: end;
+      margin-right: 75px;
+    }
+    section {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 30%;
+      height: 70%;
+      margin: 5px;
+    }
+  }
+  footer {
+    height: 34px;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+}

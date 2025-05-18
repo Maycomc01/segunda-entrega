@@ -13,7 +13,7 @@ main {
 }
 a {
   text-decoration: none;
-  color: rgb(0, 129, 112);
+  color: rgb(0, 129, 112) !important;
   font-size: larger;
 }
 
