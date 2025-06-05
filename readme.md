@@ -9,6 +9,8 @@ Este proyecto es un blog de fotografías diseñado para que el autor pueda mostr
 - HTML – Estructura del blog.
 - CSS – Estilos personalizados para mejorar la presentación visual.
 - Bootstrap – Componentes responsivos para una experiencia fluida en dispositivos móviles y desktop.
+- SCSS- Como compilador de css.
+-SEO - Se realizo el SEO para mejorar el la indexacion en buscadores.
 
    🎨 Características
 
@@ -17,6 +19,7 @@ Este proyecto es un blog de fotografías diseñado para que el autor pueda mostr
 - Galería de imágenes con efectos CSS.
 - Barra de navegación adaptable.
 - Optimización para mejorar tiempos de carga de las imagenes.
-  -Animación de web exclusivo para la pestaña de fotos.
+- Animación de web exclusivo para la pestaña de fotos.
+- Optimizacion del SEO.
 
 Este trabajo se realizo para la segunda entrega de Desarrollo Web - Coderhouse.
