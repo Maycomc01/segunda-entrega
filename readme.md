@@ -22,4 +22,4 @@ Este proyecto es un blog de fotografías diseñado para que el autor pueda mostr
 - Animación de web exclusivo para la pestaña de fotos.
 - Optimizacion del SEO.
 
-Este trabajo se realizo para la segunda entrega de Desarrollo Web - Coderhouse.
+Este trabajo se realizo para las clases de  desarrollo web - Coderhouse.
